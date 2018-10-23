@@ -10,14 +10,11 @@ import javafx.util.*;
 
 public class IntakePlan {
 
-//	private List<List<String>> format = new ArrayList<List<String>>();
-
 	public IntakePlan() {
 
 	}
 
 	public static void main(String[] args) {
-//		System.out.println("Anything");
 		List<Pair<String, String>> general = null;
 		try {
 			general = readFile(new File("data/province_name.txt"));
